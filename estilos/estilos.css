@@ -1,0 +1,23 @@
+.encabezado-tabla {
+    background-color: #081039;
+    color: #fff;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.cuerpo-actualizar {
+    background-color: #EAEAEA;
+
+}
+
+.color-header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.filtro{
+    display: none;
+}

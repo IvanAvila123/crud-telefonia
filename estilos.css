@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-image: radial-gradient(circle at 36.27% -1.23%, #00ffff 0, #00ffff 16.67%, #00f7ff 33.33%, #00cdff 50%, #34a5cf 66.67%, #3d82a4 83.33%, #3c647e 100%);
+
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: radial-gradient(circle at 36.27% -1.23%, #00ffff 0, #00ffff 16.67%, #00f7ff 33.33%, #00cdff 50%, #34a5cf 66.67%, #3d82a4 83.33%, #3c647e 100%);
+    
+}
+
+form {
+    padding: 10px;
+}
+
+.login-content {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    background: #FBFBFB;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    left: 800px;
+    top: 150px;
+
+}
+
+.input-username,
+.input-password {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+i {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.input-login {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #FBFBFB;
+}
+
+.input-submit {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00FFF7;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    width: 450px;
+    right: 750px;
+    top: 250px;
+}
+
